@@ -4,42 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="porto.css">
 </head>
 <body>
     <header>
-                                                                 <h1>PROJECT PORTFOLIO GOMYCODE</h1>
         <nav class="nav-bar">
             <ul>
-                <li><a href="#ABOUT">A PROPOS</a></li>
-                <li><a href="#WORK">WORK</a></li>
+                <li><a href="#about">A PROPOS</a></li>
+                <li><a href="#galerie">GALERIE</a></li>
                 <li><a href="#CV">CV</a></li>
                 <li><a href="#CONTACT">CONTACT</a></li>
-
-            </ul><br><br>
+            </ul>
         </nav>
-        <hr>
     </header>
-    <section id="ABOUT">
-        <h2>A PROPOS DE MOI</h2>
-        <P>Hello, je suis <b>N'GORAN TANOH ROMARIC</b><br> je suis né le 10/12/1988 Etudiant en formation de webmaster, diplomé en sciences economiques et de gestion. Passionné et engagé pour être l'un des meilleurs webmaster. A ce propos je vous met la definition d'un webmaster afin de comprendre l'importance de ce métier.</p>
-           <p><b>Le webmaster est un professionnel clé dans la gestion et la maintenance des sites web. Il s'occupe de créer, mettre à jour et optimiser des sites pour assurer leur bon fonctionnement et leur attractivité. Ses tâches incluent le développement technique, la gestion des contenus, la sécurité, et parfois le référencement pour améliorer la visibilité sur les moteurs de recherche. Un bon webmaster doit maîtriser plusieurs outils et technologies, comme HTML, CSS, et des systèmes de gestion de contenu comme WordPress. C’est un métier polyvalent, qui demande des compétences techniques et créatives !"</b></p>
-        </P><br><br>
-    </section>
-    <hr>
-    <section id="WORK">
-        <h2>MES TRAVAUX</h2>
-        <img src="ntr2.webp" alt="" width="450" height="250">
-        <img src="ntr.webp" alt="" width="450" height="250">
-        <img src="ntr3.webp" alt="" width="450" height="250">
-        <img src="ntr2.webp" alt="" width="450" height="250">
-        <p>A ce niveau j'ai eu a faire deux travaux dont je vous partage les liens en dessous</p>
-        <ol type="I">
-            <li><a href="page4.html">lien vers la page 4</a></li>
-            <li><a href="page.html">lien vers la page html</a></li>
+    <section id="about">
 
+        <div>
+            <img src="boss (2).png" alt="">
+        </div>
+        <div class="text1">N'GORAN TANOH ROMARIC</div>
+        <div class="text2">Developpeur web</div>
+    </section>
+
+    <section id="galerie">
+        <h2>IMAGES et VIDEOS D'ILLUSTRATION </h2>
+        <P class="titre">DECOUVREZ MON UNIVERS A TRAVERS CES IMAGES ET VIDEOS D'ILLUSTRATION</P>
+        <div class="images">
+        <div class="photo"><img src="ntr2.webp" alt="" width="400" height="250"></div>
+        <div class="photo"><img src="ntr.webp" alt="" width="400" height="250"></div>
+        <div class="photo"><img src="ntr3.webp" alt="" width="400" height="250"></div>
+        </div> 
+        <div class="videos">
+        <div class="element"><iframe width="400" height="250" src="https://www.youtube.com/embed/hSibQdA2LSw?si=u0KzGjLusMOFKAG7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="element"><iframe width="400" height="250" src="https://www.youtube.com/embed/8UZQJoUyFaM?si=2zvdLLBYylFs0CaN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="element"><iframe width="400" height="250" src="https://www.youtube.com/embed/SkGeJqln7II?si=LhmaM6P3ymFJE5ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
         </ol>
     </section>
-    <hr>
     <section id="CV">
         <h2>MON CURRICULUM VITAE</h2>
         <a href="CV tanoh">lien vers WPS</a>
@@ -67,6 +68,50 @@
             <a href="ngorantanohromaric@gmail.com">Email</a>
         </p>
     </footer>
-
+    <p>A ce niveau j'ai eu a faire deux travaux dont je vous partage les liens en dessous</p>
+    <ol type="I">
+        
+        
 </body>
 </html>
+<!--<li><a href="page4.html">lien vers la page 4</a></li>
+        <li><a href="page.html">lien vers la page html</a></li>
+        <div class="element"><img src="ntr3.webp" alt="" width="450" height="250"></div>
+        <div class="element"><img src="ntr2.webp" alt="" width="450" height="250"></div>
+  -->
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple CSS Grid</title>
+    <style>
+        .grille {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* 3 colonnes : 1 fraction, 2 fractions, 1 fraction */
+            grid-template-rows: auto 100px;   /* 2 lignes : automatique et 100px */
+            gap: 10px; /* Espacement entre les éléments */
+            border: 2px solid #3498db;
+        }
+
+        .element {
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="grille">
+        <div class="element">1</div>
+        <div class="element">2</div>
+        <div class="element">3</div>
+        <div class="element">4</div>
+        <div class="element">5</div>
+        <div class="element">6</div>
+    </div>
+</body>
+</html>
+ -->
