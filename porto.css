@@ -12,11 +12,13 @@ header{
 }
 .nav-bar li {
     display: inline;
-    padding: 25px 50px;
+    padding: 20px 30px;
+
 }
 .nav-bar a{
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 #about{
     margin-bottom: 50px;
@@ -100,6 +102,8 @@ h2{
 }
 .videos .element{
     display: inline;
-    margin-right:20px;
-    
+    margin-right:20px;  
+}
+#contact,label,input{
+    margin: 20px;
 }
