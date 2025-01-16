@@ -8,16 +8,96 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
+        <h1>Mon Portfolio</h1>
+        <p>Bienvenue sur mon site personnel !</p>
+    </header>
+    
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Témoignages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section class="home">
+        <h1>Bonjour, je suis [Votre Nom]</h1>
+        <p>Développeur web passionné, créant des solutions élégantes et efficaces.</p>
+        <a href="#projects" style="text-decoration: none; background: #333; color: #fff; padding: 0.75rem 1.5rem; border-radius: 5px;">Voir mes projets</a>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>À propos</h2>
+        <p>Je suis un développeur web avec une passion pour le design et le développement d'applications modernes. Avec plusieurs années d'expérience, je me spécialise dans la création de sites web conviviaux et performants.</p>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <img src="illu.jpg" alt="Project 1">
+            <div>
+                <h3>Projet 1</h3>
+                <p>Description rapide du projet. Ce que j'ai réalisé et les outils utilisés.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="illu.webp" alt="Project 2">
+            <div>
+                <h3>Projet 2</h3>
+                <p>Description rapide du projet. Ce que j'ai réalisé et les outils utilisés.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Développement de sites web sur mesure</li>
+            <li>Conception UX/UI</li>
+            <li>Optimisation des performances</li>
+        </ul>
+    </section>
+    
+    <section id="testimonials" class="testimonials">
+        <h2>Témoignages</h2>
+        <blockquote>"Super travail, très professionnel et rapide !" – Client 1</blockquote>
+        <blockquote>"Je recommande vivement, excellent développeur !" – Client 2</blockquote>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+    
+    </body>
+    </html>
+
+
+
+
+
+
+
+    
+        <!-- <nav class="nav-bar">
             <ul>
                 <li><a href="#about">A PROPOS</a></li>
                 <li><a href="#galerie">GALERIE</a></li>
                 <li><a href="#work">MES TRAVAUX</a></li>
                 <li><a href="#CONTACT">CONTACT</a></li>
             </ul>
-        </nav>
-    </header>
-    <section id="about">
+        </nav> -->
+
+    <!-- <section id="about">
 
         <div>
             <img src="boss (2).png" alt="">
@@ -25,9 +105,9 @@
         <div class="text1">N'GORAN TANOH ROMARIC</div>
         <div class="text2">Developpeur web</div>
     
-    </section>
+    </section> -->
 
-    <section id="galerie">
+    <!-- <section id="galerie">
         <h2>IMAGES et VIDEOS D'ILLUSTRATION </h2>
         <P class="titre">DECOUVREZ MON UNIVERS A TRAVERS CES IMAGES ET VIDEOS D'ILLUSTRATION</P>
         <div class="images">
@@ -42,79 +122,37 @@
         </div>
         </ol>
     </section>
-    <section id="CV">
+    <section id="work">
         <h2>MES TRAVAUX</h2>
         <a href="page4.html">lien vers projet</a><br>
         <a href="page.html">lien vers projet</a>
     </section>
-    <hr>
-    <section id="CONTACT">
+    <section id="contact">
         <h2>CONTACTEZ MOI</h2>
-        <form action="">
+        <div class="login-box">
+        <form>
             <label for="champNom"><b>NOM:</b></label>
-            <input type="text" id="champNom"><br>
+            <input type="text" id="champNom">
             <label for="champPrenom"><b>PRENOM:</b></label>
-            <input type="text" id="champPrenom"><br>
+            <input type="text" id="champPrenom">
             <label for="champNumber"><b>CONTACT:</b></label>
-            <input type="number" id="champNumber"><br>
+            <input type="number" id="champNumber">
             <label for="champEmail"><b>EMAIL:</b></label>
-            <input type="email" id="champEmail"><br><br>
-            <br>
-        
+            <input type="email" id="champEmail">
         </form>
+        </div>
     </section>
-    <hr>
+    <div>
     <footer>
-        <p>&COPYRIGHT. 2024 N'GORAN. tous droits réservés.</p>
-        <p>suivez moi: <br>
+        <p>&COPYRIGHT. 2024 N'GORAN. tous droits réservés. Suivez moi sur</p>
             <a href="ngorantanohromaric@gmail.com">Email</a>
             <a href="ngorantanohromaric">facebook</a>
             <a href="ngorantanohromaric">whatsapp</a>
             
         </p>
     </footer>
+</div>
         
         
 </body>
-</html>
-<!--<li><a href="page4.html">lien vers la page 4</a></li>
-        <li><a href="page.html">lien vers la page html</a></li>
-        <div class="element"><img src="ntr3.webp" alt="" width="450" height="250"></div>
-        <div class="element"><img src="ntr2.webp" alt="" width="450" height="250"></div>
-  -->
-<!-- <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemple CSS Grid</title>
-    <style>
-        .grille {
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr; /* 3 colonnes : 1 fraction, 2 fractions, 1 fraction */
-            grid-template-rows: auto 100px;   /* 2 lignes : automatique et 100px */
-            gap: 10px; /* Espacement entre les éléments */
-            border: 2px solid #3498db;
-        }
-
-        .element {
-            background-color: #e74c3c;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #c0392b;
-        }
-    </style>
-</head>
-<body>
-    <div class="grille">
-        <div class="element">1</div>
-        <div class="element">2</div>
-        <div class="element">3</div>
-        <div class="element">4</div>
-        <div class="element">5</div>
-        <div class="element">6</div>
-    </div>
-</body>
-</html>
- -->
+</html> -->

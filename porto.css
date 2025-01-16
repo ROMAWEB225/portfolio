@@ -2,8 +2,115 @@
     padding: 0;
     margin: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background:rgba(255, 68, 0, 0.863);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background:black;
+    padding: 0.5rem 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+  
+  nav a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .home {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 4rem 2rem;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about, .projects, .services, .testimonials, .contact {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  .project {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project img {
+    max-width: 150px;
+    border-radius: 8px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact form input, .contact form textarea, .contact form button {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  .contact form button:hover {
+    background: #444;
+     }
+  /* @media (forced-colors: active) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  
 body{
     font-family: 'Roboto';
+    background-color: gray;
+}
+#about{
+    background-color: white;
 }
 header{
     background-color:rgba(255, 68, 0, 0.863);
@@ -52,11 +159,10 @@ header{
     transition: 1.5s;
 }
 h2{
-    text-align: center;
     color:white;
     background-color: orangered;
     margin: 50px auto;
-    border-radius: 50px;
+
 }
 .titre{
     text-align: center;
@@ -78,7 +184,6 @@ h2{
 #galerie{
     margin-bottom: 25px;
     background-color:gray;
-
 }
 .images{
     margin: 30px 300px;
@@ -98,12 +203,32 @@ h2{
 }
 .videos:hover{
     transform: scale(1.1);
-    filter: brightness(1.3);
+    filter: brightness(1.2);
 }
 .videos .element{
     display: inline;
     margin-right:20px;  
 }
-#contact,label,input{
-    margin: 20px;
+#contact{
+    margin:auto;
 }
+label,input{
+    padding: 10px;
+    margin-top: 5px;
+}
+footer{
+    padding: 25px;
+    margin-bottom: auto;
+}
+.login-box label,.login-box input{
+    display: block;
+    margin: 5px 0px;
+    padding: 10px;
+}
+.login-box form{
+    border: white 1px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 100px 100px;
+} */
